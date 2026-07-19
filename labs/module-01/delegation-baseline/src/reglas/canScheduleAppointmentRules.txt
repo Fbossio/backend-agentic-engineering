@@ -1,0 +1,8 @@
+Reglas:
+
+estado UNDER_REVIEW;
+fecha válida y posterior al momento de referencia recibido;
+debe existir al menos un documento cargado;
+no debe modificar la entrada.
+
+La función debe recibir explícitamente now: Date para que las pruebas sean determinísticas.

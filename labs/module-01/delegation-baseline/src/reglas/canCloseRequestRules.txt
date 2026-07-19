@@ -1,0 +1,7 @@
+Reglas:
+
+estado APPROVED o REJECTED;
+no puede tener documentos obligatorios pendientes;
+no puede tener citas futuras activas;
+debe existir al menos un evento de auditoría;
+no debe modificar la entrada.

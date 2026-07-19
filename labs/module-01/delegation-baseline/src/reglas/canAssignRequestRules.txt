@@ -1,0 +1,6 @@
+Reglas:
+
+estado SUBMITTED o UNDER_REVIEW;
+identificador de analista no vacío;
+no puede estar cerrada;
+no debe modificar la entrada.
