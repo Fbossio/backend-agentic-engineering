@@ -307,3 +307,36 @@ Evitar mantenimiento innecesario y duplicación.
 4. Definir duración objetivo de cada módulo.
 5. Establecer la herramienta de CI/CD del proyecto.
 6. Definir si el repositorio final será público o privado.
+
+## DEC-011 — Protocolo de chats de módulo
+
+**Fecha:** 19 de julio de 2026  
+**Estado:** Aprobada
+
+### Contexto
+
+Cada módulo se desarrollará en un chat distinto y se requiere una forma
+determinística de identificar el siguiente módulo y conservar continuidad.
+
+### Decisión
+
+Cada chat de módulo tendrá el nombre:
+
+`NN - Nombre oficial del módulo`
+
+El siguiente módulo será el primero no completado en `PROGRESO.md`.
+Su nombre oficial se obtendrá de `CURSO_MASTER.md`.
+
+El chat deberá consultar GitHub al comenzar, esperar la confirmación del
+cambio de nombre y finalizar con un resumen de continuidad y cambios
+documentales propuestos.
+
+### Motivo
+
+Evitar nombres inconsistentes, módulos duplicados y dependencia de la
+memoria de las conversaciones.
+
+### Impacto
+
+Todos los chats de módulo seguirán el mismo protocolo de apertura,
+desarrollo y cierre.

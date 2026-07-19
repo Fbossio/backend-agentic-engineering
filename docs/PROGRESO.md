@@ -128,3 +128,16 @@
 - Los módulos se desarrollarán en chats separados.
 - Los resultados aprobados se consolidarán en Git.
 - El proyecto usará un laboratorio transversal.
+
+### Hito 0 — Gobierno del curso
+
+- [x] Crear Proyecto de ChatGPT.
+- [x] Nombrar el chat principal `00 - Diseño y gobierno del curso`.
+- [x] Definir el esquema general.
+- [x] Crear documentos maestros.
+- [x] Revisar y aprobar documentos maestros.
+- [x] Crear repositorio Git.
+- [x] Subir los documentos al repositorio.
+- [x] Conectar GitHub con ChatGPT.
+- [x] Configurar GitHub como fuente de verdad en las instrucciones.
+- [ ] Crear el chat `01 - Del copiloto al desarrollo dirigido por agentes`.
