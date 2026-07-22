@@ -340,3 +340,45 @@ memoria de las conversaciones.
 
 Todos los chats de módulo seguirán el mismo protocolo de apertura,
 desarrollo y cierre.
+
+## DEC-012 — Avance adaptable y cierre por decisión del participante
+
+**Fecha:** 21 de julio de 2026  
+**Estado:** Aprobada
+
+### Contexto
+
+La estructura completa de cada módulo puede exigir más tiempo del que resulta
+conveniente para el objetivo de obtener una visión amplia del desarrollo
+agentic y avanzar por todo el programa.
+
+### Decisión
+
+El participante podrá dar por concluida una lección, sección, laboratorio,
+ejercicio, evaluación o módulo cuando considere que alcanzó suficiente
+comprensión para sus objetivos.
+
+Los componentes no realizados se registrarán como:
+
+`Omitido por decisión del participante`
+
+y no bloquearán el avance al siguiente contenido.
+
+El asistente deberá:
+
+- advertir brevemente cuando se omita un prerrequisito importante;
+- evitar insistir en detalles cuando el propósito principal ya se alcanzó;
+- distinguir entre contenido completado y contenido omitido;
+- priorizar amplitud y utilidad práctica dentro del tiempo disponible;
+- respetar la decisión explícita de avanzar.
+
+### Motivo
+
+Optimizar el aprendizaje según el tiempo disponible y evitar que la profundidad
+excesiva en temas ya comprendidos impida recorrer los módulos posteriores.
+
+### Impacto
+
+La plantilla de módulos y el seguimiento deberán admitir cierres parciales,
+alcance reducido y actividades omitidas sin confundirlas con actividades
+ejecutadas.

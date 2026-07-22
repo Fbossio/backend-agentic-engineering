@@ -1,6 +1,6 @@
 # Módulo N — Nombre del módulo
 
-> Estado: Borrador | En desarrollo | En revisión | Aprobado  
+> Estado: Borrador | En desarrollo | En revisión | Aprobado | Pendiente | En curso | Completado | Omitido por decisión del participante
 > Versión: 0.1  
 > Duración estimada: X horas  
 > Módulos previos:  
