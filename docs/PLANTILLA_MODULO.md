@@ -1,6 +1,7 @@
 # Módulo N — Nombre del módulo
 
-> Estado: Borrador | En desarrollo | En revisión | Aprobado | Pendiente | En curso | Completado | Omitido por decisión del participante
+> Estado del documento: Borrador | En desarrollo | En revisión | Aprobado
+> Estado académico: Pendiente | En curso | Completado | Cerrado con alcance reducido | Omitido por decisión del participante
 > Versión: 0.1  
 > Duración estimada: X horas  
 > Módulos previos:  
@@ -272,6 +273,17 @@ Para cada recurso registrar:
 ---
 
 ## 15. Entregables del módulo
+
+Cada entregable debe registrarse con uno de estos estados:
+
+- Completado.
+- Pendiente.
+- Omitido por decisión del participante.
+- No aplica.
+
+Un módulo puede cerrarse con alcance reducido cuando su propósito principal se haya alcanzado, aunque existan entregables omitidos.
+
+Los componentes omitidos deben distinguirse claramente de los componentes ejecutados.
 
 - [ ] Contenido aprobado.
 - [ ] Demostración.

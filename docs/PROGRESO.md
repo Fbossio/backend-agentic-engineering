@@ -2,15 +2,15 @@
 
 **Curso:** Backend Agentic Engineering  
 **Versión del seguimiento:** 0.1  
-**Última actualización:** 17 de julio de 2026  
+**Última actualización:** 21 de julio de 2026
 
 ---
 
 ## 1. Estado general
 
-**Fase actual:** Diseño y gobierno  
-**Estado:** En preparación  
-**Próximo objetivo:** Aprobar documentos maestros e iniciar el Módulo 1.
+**Fase actual:** Fase I — Cambio de modelo mental
+**Estado:** En curso
+**Próximo objetivo:** Iniciar el Módulo 2 — Comunicación y especificaciones para agentes.
 
 ---
 
@@ -18,7 +18,7 @@
 
 | N.º | Módulo | Esquema | Contenido | Laboratorio | Evaluación | Estado |
 |---:|---|:---:|:---:|:---:|:---:|---|
-| 1 | Del copiloto al desarrollo dirigido por agentes | Sí | No | No | No | Pendiente |
+| 1 | Del copiloto al desarrollo dirigido por agentes | Sí | Sí | Sí | Omitida por decisión del participante | Cerrado con alcance reducido |
 | 2 | Comunicación y especificaciones para agentes | Sí | No | No | No | Pendiente |
 | 3 | ChatGPT para el ciclo completo de desarrollo | Sí | No | No | No | Pendiente |
 | 4 | Investigación técnica verificable | Sí | No | No | No | Pendiente |
@@ -43,10 +43,10 @@
 
 | Documento | Estado | Próxima revisión |
 |---|---|---|
-| `CURSO_MASTER.md` | Versión inicial creada | Antes de iniciar el Módulo 1 |
+| `CURSO_MASTER.md` | Aprobado y activo | Cuando cambie el alcance del curso |
 | `PROGRESO.md` | Activo | Al cerrar cada sesión relevante |
-| `DECISIONES.md` | Versión inicial creada | Cuando se tome una decisión global |
-| `PLANTILLA_MODULO.md` | Versión inicial creada | Después de probarla con el Módulo 1 |
+| `DECISIONES.md` | Activo | Cuando se tome una decisión global |
+| `PLANTILLA_MODULO.md` | Ajustada después del Módulo 1 | Después de cambios globales de metodología |
 | `PROYECTO_TRANSVERSAL.md` | Borrador inicial | Antes del primer laboratorio acumulativo |
 
 ---
@@ -59,17 +59,18 @@
 - [x] Nombrar el chat principal `00 - Diseño y gobierno del curso`.
 - [x] Definir el esquema general.
 - [x] Crear documentos maestros.
-- [ ] Revisar y aprobar documentos maestros.
-- [ ] Crear repositorio Git.
-- [ ] Subir los documentos al repositorio.
-- [ ] Crear el chat `01 - Del copiloto al desarrollo dirigido por agentes`.
+- [x] Revisar y aprobar documentos maestros.
+- [x] Crear repositorio Git.
+- [x] Subir los documentos al repositorio.
+- [x] Crear el chat `01 - Del copiloto al desarrollo dirigido por agentes`.
 
 ### Hito 1 — Fundamentos
 
-- [ ] Completar Módulo 1.
+- [x] Completar Módulo 1 con alcance reducido.
 - [ ] Completar Módulo 2.
-- [ ] Realizar diagnóstico inicial.
+- [x] Realizar diagnóstico inicial.
 - [ ] Definir métricas personales de comparación.
+  Estado: Omitido por decisión del participante.
 
 ### Hito 2 — Uso profesional de ChatGPT y Codex
 
@@ -101,12 +102,11 @@
 
 ## 5. Próximas acciones
 
-1. Revisar los cinco documentos maestros.
-2. Confirmar el stack definitivo del proyecto transversal.
-3. Crear el repositorio `backend-agentic-engineering`.
-4. Crear la estructura inicial de carpetas.
-5. Iniciar el desarrollo del Módulo 1.
-6. Ejecutar la evaluación diagnóstica antes de introducir el flujo con agentes.
+1. Iniciar el Módulo 2 — Comunicación y especificaciones para agentes.
+2. Confirmar el stack definitivo antes del primer laboratorio acumulativo.
+3. Confirmar TypeORM o seleccionar otro ORM.
+4. Definir el dominio definitivo del proyecto transversal.
+5. Mantener el avance adaptable definido en DEC-012.
 
 ---
 
@@ -140,4 +140,38 @@
 - [x] Subir los documentos al repositorio.
 - [x] Conectar GitHub con ChatGPT.
 - [x] Configurar GitHub como fuente de verdad en las instrucciones.
-- [ ] Crear el chat `01 - Del copiloto al desarrollo dirigido por agentes`.
+- [x] Crear el chat `01 - Del copiloto al desarrollo dirigido por agentes`.
+
+### 21 de julio de 2026 — Módulo 1 y avance adaptable
+
+**Completado:**
+
+- Contenido conceptual sobre asistentes, copilotos y agentes.
+- Ciclo de trabajo agentic.
+- Niveles de delegación y supervisión humana.
+- Laboratorio comparativo entre trabajo manual, Copilot y Codex CLI.
+- Revisión crítica de las tres implementaciones.
+- Diagnóstico inicial del participante.
+- Aprobación del avance adaptable mediante DEC-012.
+
+**Hallazgos:**
+
+- La implementación manual contenía un error lógico no detectado por sus tests.
+- La implementación con Copilot presentó cobertura incompleta y una posible interpretación incorrecta de la regla temporal.
+- La implementación con Codex CLI presentó una entrega más completa y una mayor cobertura de pruebas.
+- El resultado no demuestra superioridad universal de una herramienta; demuestra la importancia de la exploración, los tests, la evidencia y la revisión humana.
+
+**Decisiones:**
+
+- El Módulo 1 se cierra con alcance reducido.
+- La evaluación extensa se omite por decisión del participante.
+- Los componentes omitidos no bloquearán el avance.
+- Se priorizará amplitud y utilidad práctica sobre profundidad exhaustiva cuando el participante decida avanzar.
+
+**Estado del Módulo 1:**
+
+`Cerrado con alcance reducido`
+
+**Próximo paso:**
+
+Iniciar el Módulo 2 — Comunicación y especificaciones para agentes.
